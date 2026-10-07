@@ -1,3 +1,7 @@
+# LEGACY DEMO CONFIGURATION ONLY.
+# Retained for historical reference; this file does not prove that a live production
+# deployment exists. Do not treat the static client-side PIN flow as authentication.
+
 name = "dandle-sales-system"
 compatibility_date = "2024-01-01"
 
