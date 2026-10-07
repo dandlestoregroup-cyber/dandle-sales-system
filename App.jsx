@@ -125,6 +125,11 @@ const DandleSalesSystem = () => {
   
     return (
         <div className="min-h-screen flex flex-col bg-gray-100 rtl">
+            <div className="bg-amber-50 border-b border-amber-300 px-4 py-2 text-center text-sm font-semibold text-amber-900">
+                {language === 'ar'
+                    ? 'عرض تجريبي قديم — لا توجد مصادقة خادمية. لا تستخدم بيانات حقيقية أو حساسة.'
+                    : 'Legacy demo — there is no server-side authentication. Do not use real or sensitive data.'}
+            </div>
             <header className="bg-white shadow-md p-4 flex justify-between items-center">
                 <h1 className="text-xl font-bold" style={{ color: DANDLE_COLORS.primary }}>{t('brandPromise')}</h1>
                 <div className="flex items-center space-x-4">
